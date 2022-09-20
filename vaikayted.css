@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'cyberthone';
+    src: url(./Fonts/Cyberthrone.ttf);
+}
+
+@font-face {
+    font-family: 'abnes';
+    src: url(./Fonts/abnes.ttf);
+}
+
+@font-face {
+    font-family: 'agrozza';
+    src: url(./Fonts/AgrozzaDemoRegular.ttf);
+}
+
+@font-face {
+  font-family: 'oceanicdrift';
+  src: url(./Fonts/oceanicdriftbold.ttf)
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    color: white;
+    z-index: 1;
+    height: 230px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+}
+
+footer {
+    //background-color: dimgrey;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+nav li{
+    //background-color: green;
+    color: white;
+    list-style: none;
+    text-align: center;
+    font-family: cyberthone;
+    font-size: 250px;
+
+}
+
+nav ul {
+    position: center;
+    margin: auto;
+    padding: 200px 0;
+}
+
+h1 {
+    font-size: 150px;
+    letter-spacing: 10px;
+    font-family: abnes;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    overflow: hidden;
+    margin: auto;
+}
+
+h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    height: 25px;
+    font-family: 'abnes';
+    position: relative;
+    top: 5px;
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+a{
+   
+}
+
+.backgroundstreet {
+    background-image: url(./Images/TheStreet.png);
+    background-size: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.social {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    font-family: agrozza;
+    letter-spacing: 2px;
+    background-color: darkred;
+    padding: 15px;
+}
+
+#street{
+ width: 100%;
+ height: auto;
+
+}
